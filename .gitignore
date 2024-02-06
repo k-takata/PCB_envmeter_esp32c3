@@ -1,0 +1,16 @@
+/Gerber/
+/PCB_*-backups/
+/fp-info-cache
+/production/
+/#auto_saved_files#
+
+*~
+.~*
+~*.lck
+
+*.csv
+*.gbr
+*.gbrjob
+*.drl
+*.xml
+*.zip

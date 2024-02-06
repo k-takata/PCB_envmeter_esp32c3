@@ -1,0 +1,8 @@
+*		text=auto
+*.kicad_pcb	text
+*.kicad_prl	text
+*.kicad_pro	text
+*.kicad_sch	text
+*.md		text
+*.pdf		binary
+*.png		binary
