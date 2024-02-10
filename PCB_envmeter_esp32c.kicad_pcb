@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "IoT環境メーター")
+    (date "2024-02-06")
+    (rev "1")
+    (company "K.Takata")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
