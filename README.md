@@ -34,7 +34,8 @@ KiCad 7.0
 |F2                   |   1|  1.1A|[ポリヒューズ](https://akizukidenshi.com/catalog/g/g100507/)|
 |J1                   |   1|[5077CR-16-SMC2-BK-TR](https://akizukidenshi.com/catalog/g/g114356/)|USB Type-Cコネクター|
 |J2                   |   1|      |[USB Type-CコネクターDIP化キット](https://akizukidenshi.com/catalog/g/g115426/)、[同等品](https://akizukidenshi.com/catalog/g/g113080/)でも可|
-|J3, J4               |   2|      |ピンソケット 1x4 (あるいは1列ICソケット)|
+|J3                   |   1|      |細ピンソケット 1x4 (あるいは1列ICソケット)|
+|J4                   |   1|      |ピンソケット 1x4|
 |(J3)                 |   1|[AE-BME680](https://akizukidenshi.com/catalog/g/g114469/)|総合環境センサー|
 |(J4)                 |   1|      |[0.96インチ 128×64ドット OLED](https://akizukidenshi.com/catalog/g/g112031/)、SSD1306搭載|
 |R1, R2               |   2|5.1kΩ|緑茶赤金、小型|
