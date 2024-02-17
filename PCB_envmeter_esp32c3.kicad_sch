@@ -6,8 +6,8 @@
 
   (title_block
     (title "IoT環境メーター")
-    (date "2024-02-06")
-    (rev "1")
+    (date "2024-02-17")
+    (rev "1.1")
     (company "K.Takata")
   )
 
@@ -1475,10 +1475,12 @@
 
   (no_connect (at 144.78 90.17) (uuid 2203c737-d15e-4fd4-bcb3-202d3b121821))
   (no_connect (at 200.66 80.01) (uuid 26017e83-a8d3-4852-8927-f5d7cb807e58))
+  (no_connect (at 34.29 119.38) (uuid 3922723b-d264-4224-aaad-273a5554da18))
   (no_connect (at 57.15 111.76) (uuid 6cb9939f-dece-46c7-83db-b28be7686c04))
   (no_connect (at 57.15 109.22) (uuid 7659bb10-4795-4a06-bbea-c1841a8e7f81))
   (no_connect (at 200.66 115.57) (uuid 858e3eb0-445c-44fa-8134-6bfb2b94e78e))
   (no_connect (at 200.66 82.55) (uuid 930986d7-80b9-4aa4-a5f6-12b18d0f4b41))
+  (no_connect (at 34.29 172.72) (uuid 9f68e5c8-5b7f-4d9a-8f65-60f78afbdc45))
   (no_connect (at 200.66 105.41) (uuid ab5b8f99-4db4-423f-a2c5-5eeb41d2500a))
   (no_connect (at 144.78 87.63) (uuid ce6b3099-cf44-4992-9935-5e7e092c32df))
   (no_connect (at 200.66 95.25) (uuid ea9f3240-ccd2-4b74-8bc6-8ce88d2ed5cd))
@@ -1815,7 +1817,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "H2") (unit 1)
         )
@@ -1840,7 +1842,7 @@
     )
     (pin "1" (uuid cf4f787d-4432-46de-9a4a-4dc6acf43bff))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#FLG01") (unit 1)
         )
@@ -1866,7 +1868,7 @@
     (pin "1" (uuid 965347c5-da8d-4a64-8c1e-477751e10d7f))
     (pin "2" (uuid 6e4b9ff5-eba5-4f7c-904e-259be63f9c79))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "R4") (unit 1)
         )
@@ -1909,7 +1911,7 @@
     (pin "19" (uuid ab162304-4bd3-4745-a872-ba4f34eb93ff))
     (pin "2" (uuid 05138e83-0a3c-4ed1-94b2-31003b80cc87))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "U1") (unit 1)
         )
@@ -1934,7 +1936,7 @@
     )
     (pin "1" (uuid a9494cb1-a603-4d56-9c0a-17ef31371dbc))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR013") (unit 1)
         )
@@ -1958,7 +1960,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "H4") (unit 1)
         )
@@ -1983,7 +1985,7 @@
     )
     (pin "1" (uuid aa0174c0-df8a-45d7-818d-8d32357b764c))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR012") (unit 1)
         )
@@ -2008,7 +2010,7 @@
     )
     (pin "1" (uuid 95987e2a-9243-4b46-8a84-9d23e71c11e1))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR018") (unit 1)
         )
@@ -2033,7 +2035,7 @@
     )
     (pin "1" (uuid 6d6d9e05-a1a0-4d27-92fe-dd0fae6aa6cb))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR016") (unit 1)
         )
@@ -2059,7 +2061,7 @@
     (pin "1" (uuid d81a4e14-fb0c-47f6-b003-9f27d957f12a))
     (pin "2" (uuid b7aba9af-b191-4b56-8406-f524d547a21d))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "R5") (unit 1)
         )
@@ -2083,7 +2085,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "H3") (unit 1)
         )
@@ -2108,34 +2110,9 @@
     )
     (pin "1" (uuid 851a56f3-d503-4528-9506-6f26874447f6))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 34.29 172.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3bbe5965-8fad-4262-a57f-8b9825c1cda2)
-    (property "Reference" "#PWR028" (at 34.29 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 34.29 177.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 34.29 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 34.29 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34d923be-6ac9-4bce-9390-a19721a653be))
-    (instances
-      (project "PCB_envmeter_esp32c"
-        (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
-          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2158,7 +2135,7 @@
     )
     (pin "1" (uuid f8f349a5-dfca-45e5-9a2f-cbcb642a7b2a))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR01") (unit 1)
         )
@@ -2184,7 +2161,7 @@
     (pin "1" (uuid a40c83a1-cb0b-47fa-979d-2dcaa4e1aba5))
     (pin "2" (uuid 7bbe302a-43bb-49e8-bebb-aee0c4903501))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "SW2") (unit 1)
         )
@@ -2209,7 +2186,7 @@
     )
     (pin "1" (uuid 9e056062-d921-4bbc-9239-d191614575f0))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR020") (unit 1)
         )
@@ -2234,7 +2211,7 @@
     )
     (pin "1" (uuid 1e1efd82-766c-4d75-a04a-32150f5ecfed))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR027") (unit 1)
         )
@@ -2275,7 +2252,7 @@
     (pin "A5" (uuid d9fd0e54-7657-47ef-bf0a-95c5b32facb4))
     (pin "A8" (uuid 02aa323d-d24b-402e-ac6b-f3fbcec2a645))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "J1") (unit 1)
         )
@@ -2300,7 +2277,7 @@
     )
     (pin "1" (uuid 37d4f2f9-3d22-4983-9359-71360d541acc))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR015") (unit 1)
         )
@@ -2325,7 +2302,7 @@
     )
     (pin "1" (uuid bb7b7eea-7688-4686-9286-c493709cfa2c))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR02") (unit 1)
         )
@@ -2351,7 +2328,7 @@
     (pin "2" (uuid 9ba0af49-69c5-4fcd-97a2-d7b3eeb54cde))
     (pin "1" (uuid aee5d078-230a-4f1d-b4bd-6e11d4f8f954))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "SW1") (unit 1)
         )
@@ -2379,34 +2356,9 @@
     (pin "3" (uuid ae01637e-5a3c-44c7-9334-d06ab93b3b35))
     (pin "1" (uuid 661ea459-bd4d-49b1-9133-a081c027dc19))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 34.29 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 58be5907-ceec-4d4e-935f-99cc7dd10cd5)
-    (property "Reference" "#PWR09" (at 34.29 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 34.29 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 34.29 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 34.29 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6cbe10d2-408f-421c-bbef-d702aa2bd9bc))
-    (instances
-      (project "PCB_envmeter_esp32c"
-        (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
-          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2429,7 +2381,7 @@
     )
     (pin "1" (uuid a996a135-c9ee-4eeb-9f20-ae144bb28679))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR06") (unit 1)
         )
@@ -2455,7 +2407,7 @@
     (pin "1" (uuid 369f150b-cf9c-446e-80fd-190420e00109))
     (pin "2" (uuid 55be7a31-453d-4474-9478-f3eb4d47b0c1))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "C4") (unit 1)
         )
@@ -2480,7 +2432,7 @@
     )
     (pin "1" (uuid 34d12b39-4f3f-4473-83b5-4581f24f00b2))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR024") (unit 1)
         )
@@ -2505,7 +2457,7 @@
     )
     (pin "1" (uuid 969a6ad4-6a24-4799-bcd9-7f8e326dc276))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR010") (unit 1)
         )
@@ -2533,7 +2485,7 @@
     (pin "3" (uuid ed489871-dc79-4638-8801-b5a3413b08d9))
     (pin "1" (uuid 7c8fdcbf-2b58-4cbc-ab8f-3c5fb7868b27))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "J3") (unit 1)
         )
@@ -2559,7 +2511,7 @@
     (pin "2" (uuid 6559e866-58e1-4b03-9a5b-65d90f92de80))
     (pin "1" (uuid 821112f8-87f0-4049-835f-aa65a9d47b77))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "R1") (unit 1)
         )
@@ -2585,7 +2537,7 @@
     (pin "2" (uuid 34e301e7-6b2c-40d5-aece-1a3f6a614ec7))
     (pin "1" (uuid e2c02d35-7c07-4e99-a1d0-83153f8e5840))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "R3") (unit 1)
         )
@@ -2610,7 +2562,7 @@
     )
     (pin "1" (uuid e3cb80f2-7bc5-4701-ad51-c91fdc412cb1))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR03") (unit 1)
         )
@@ -2636,7 +2588,7 @@
     (pin "1" (uuid 8d2d205f-ac66-4c34-a8bc-8667bc442e33))
     (pin "2" (uuid 017f5279-81b2-4216-8e52-515ed517569c))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "C2") (unit 1)
         )
@@ -2661,7 +2613,7 @@
     )
     (pin "1" (uuid 86e94f8b-0775-4867-b722-924e86e3bd37))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR011") (unit 1)
         )
@@ -2686,7 +2638,7 @@
     )
     (pin "1" (uuid 4a4e333a-dada-48a0-b8c1-50b60bbb69e0))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR025") (unit 1)
         )
@@ -2711,7 +2663,7 @@
     )
     (pin "1" (uuid bbf85de4-0c59-441a-bb3e-c0488766ed9c))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#FLG02") (unit 1)
         )
@@ -2737,7 +2689,7 @@
     (pin "2" (uuid 05122d59-a690-4918-9fdf-3e8efed89b03))
     (pin "1" (uuid 0a412af4-7800-4d6b-b90e-944fa109080d))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "R6") (unit 1)
         )
@@ -2762,7 +2714,7 @@
     )
     (pin "1" (uuid b4f893a3-5ac4-4e9b-8ea0-69c200cfb1c2))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR019") (unit 1)
         )
@@ -2792,7 +2744,7 @@
     (pin "3" (uuid 1fde952a-9b32-4d2f-ba68-f443f0078080))
     (pin "1" (uuid 2c91a7e3-1365-40ae-a122-b5edb66bd633))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "U3") (unit 1)
         )
@@ -2831,7 +2783,7 @@
     (pin "3" (uuid 210665ce-9cc7-4837-b903-0d44e204de7d))
     (pin "4" (uuid 949e0a25-fa9d-43f4-b1c0-10b3e0841079))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "J2") (unit 1)
         )
@@ -2856,7 +2808,7 @@
     )
     (pin "1" (uuid 3bf1198d-b7f5-424b-bf9f-52f7e6e8c975))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR07") (unit 1)
         )
@@ -2882,7 +2834,7 @@
     (pin "1" (uuid aa5d79f3-d534-4541-9bdd-187dd172af35))
     (pin "2" (uuid 5586a8cb-b152-4ca9-b262-06409d77518b))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "F2") (unit 1)
         )
@@ -2907,7 +2859,7 @@
     )
     (pin "1" (uuid a8647531-eb26-4822-81e4-373f69eb22bf))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR017") (unit 1)
         )
@@ -2934,7 +2886,7 @@
     (pin "3" (uuid f98876f5-fe42-418d-8fe1-6b58b420565f))
     (pin "2" (uuid 7a2f6a5b-6afd-4cd4-a29d-309358d741e0))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "U2") (unit 1)
         )
@@ -2960,7 +2912,7 @@
     (pin "2" (uuid 6c9284c8-a0c3-4b99-86ee-81e0db20dcb8))
     (pin "1" (uuid 22261ecd-a413-47f5-a94c-6c7f77073dae))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "C1") (unit 1)
         )
@@ -2985,7 +2937,7 @@
     )
     (pin "1" (uuid 1b8e2b97-03a5-4c58-a095-5ead2c6f9980))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR022") (unit 1)
         )
@@ -3011,7 +2963,7 @@
     (pin "2" (uuid a3950e95-c0c0-4e97-8ffa-a73b32319b27))
     (pin "1" (uuid 4e6689d3-4b02-491b-8cf2-d8e4ae192ff5))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "R2") (unit 1)
         )
@@ -3037,7 +2989,7 @@
     (pin "1" (uuid 7ddbfb84-e37d-4a6d-8442-4fa209c435d8))
     (pin "2" (uuid cdb329fe-c7bd-4190-8a51-02081b0f27ba))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "F1") (unit 1)
         )
@@ -3062,7 +3014,7 @@
     )
     (pin "1" (uuid e62ed84b-c5f4-40a1-9965-1c47a5c25a44))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR021") (unit 1)
         )
@@ -3087,7 +3039,7 @@
     )
     (pin "1" (uuid 77b79045-cbf4-47a0-a016-d7b2e9108fff))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR05") (unit 1)
         )
@@ -3113,7 +3065,7 @@
     (pin "2" (uuid 2196cd9d-c085-477b-98e9-f00c03ec60a1))
     (pin "1" (uuid 6dfd3eff-aa67-48a9-98a4-af19df03fcbb))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "D1") (unit 1)
         )
@@ -3138,7 +3090,7 @@
     )
     (pin "1" (uuid 58bc43a5-ac26-431f-820a-bd844aa72603))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR023") (unit 1)
         )
@@ -3162,7 +3114,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "H1") (unit 1)
         )
@@ -3187,7 +3139,7 @@
     )
     (pin "1" (uuid 47a69b51-6431-462e-84e6-243f347a14d8))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR04") (unit 1)
         )
@@ -3212,7 +3164,7 @@
     )
     (pin "1" (uuid 3a5babb7-a6a4-4620-ae79-ef1046a672ac))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR014") (unit 1)
         )
@@ -3237,7 +3189,7 @@
     )
     (pin "1" (uuid a06c1df3-7bc5-44c8-8f65-84ddb2e8db4e))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "#PWR026") (unit 1)
         )
@@ -3263,7 +3215,7 @@
     (pin "2" (uuid cd469c53-6500-443f-ae87-a1163f2cc7f6))
     (pin "1" (uuid 5b1cf846-37d5-45e2-ab9b-ad50392a7ddc))
     (instances
-      (project "PCB_envmeter_esp32c"
+      (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
           (reference "C3") (unit 1)
         )
