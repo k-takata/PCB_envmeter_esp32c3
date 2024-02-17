@@ -6,7 +6,7 @@
 
   (title_block
     (title "IoT環境メーター")
-    (date "2024-02-17")
+    (date "2024-02-18")
     (rev "1.1")
     (company "K.Takata")
   )
@@ -2152,7 +2152,7 @@
     (property "Value" "Mode" (at 212.09 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR" (at 205.74 118.11 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 205.74 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 118.11 0)
@@ -2319,7 +2319,7 @@
     (property "Value" "Reset" (at 130.81 86.36 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSL0Axx1LFTR" (at 124.46 85.09 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 124.46 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 85.09 0)
