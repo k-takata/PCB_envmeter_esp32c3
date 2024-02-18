@@ -50,14 +50,16 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "courtyards_overlap|38610563|59462001|35c3f506-7fe2-40e7-b58c-0ca1352b2feb|723b2798-df5b-4073-bbd0-bef5622ae16f",
         "courtyards_overlap|52009999|42950001|bef08ae3-f967-42ea-a361-eee43c7bc6ee|e3558efe-f4eb-4bb4-b48f-73266ae656dd",
         "courtyards_overlap|57129999|58490001|15b3e7a0-008d-4c80-91fe-92c50963382f|1a4557b7-3d09-4267-9b31-ab56185f1ecc",
-        "lib_footprint_mismatch|42642500|64770000|723b2798-df5b-4073-bbd0-bef5622ae16f|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|42095500|61888000|2a2a9619-f1a7-4f2a-b59c-a670da45a178|97038d4a-2410-40a7-b7e3-e92fa24d5174",
+        "hole_clearance|42095500|62088000|2a2a9619-f1a7-4f2a-b59c-a670da45a178|56bd3c62-5042-4738-a2c1-7e95beeadc19",
+        "hole_clearance|42095500|67488000|dccd4b12-2b98-4802-b95d-15ac37f407e6|2f9d39e2-65dc-4185-a77e-1c276067ab4e",
+        "hole_clearance|42095500|67688000|dccd4b12-2b98-4802-b95d-15ac37f407e6|fc4b0aa0-9fdf-4c89-aa42-20559cdd0885",
         "lib_footprint_mismatch|54650000|59690000|15b3e7a0-008d-4c80-91fe-92c50963382f|00000000-0000-0000-0000-000000000000",
-        "unconnected_items|37897500|60462000|c23355b8-4861-4785-ad0b-e6ef59f46401|8b205a0f-22a2-44ad-b3aa-82385e44f0ff",
-        "unconnected_items|37897500|69102000|8b205a0f-22a2-44ad-b3aa-82385e44f0ff|35a7848b-ee1d-4414-8f9d-b1c0ea7476f3",
-        "unconnected_items|42077500|60462000|44eb63bc-0945-47ac-81ab-83ffd70bd7d8|c23355b8-4861-4785-ad0b-e6ef59f46401"
+        "unconnected_items|37925500|60468000|7d5a15d9-91b1-4c0f-a86a-0907f349fb20|83ef89c4-ef57-4bbc-b4cb-b826f1a8c512",
+        "unconnected_items|37925500|69108000|83ef89c4-ef57-4bbc-b4cb-b826f1a8c512|17927c1f-8bf2-4847-9106-42d2531cf30e",
+        "unconnected_items|42105500|60468000|64830c15-892d-4b89-ad6a-0e6faea15f1a|7d5a15d9-91b1-4c0f-a86a-0907f349fb20"
       ],
       "meta": {
         "version": 2
