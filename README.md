@@ -40,8 +40,8 @@ KiCad 7.0
 |(J4)                 |   1|      |[0.96インチ 128×64ドット OLED](https://akizukidenshi.com/catalog/g/g112031/)、SSD1306搭載|
 |R1, R2               |   2|5.1kΩ|緑茶赤金、小型|
 |R3, R4, R5, R6       |   4| 10kΩ|茶黒橙金|
-|SW1                  |   1|      |[タクトスイッチ(赤)](https://akizukidenshi.com/catalog/g/g103470/)|
-|SW2                  |   1|      |[タクトスイッチ(黒)](https://akizukidenshi.com/catalog/g/g103647/)|
+|SW1                  |   1|Reset |[タクトスイッチ(赤)](https://akizukidenshi.com/catalog/g/g103646/)|
+|SW2                  |   1|Mode  |[タクトスイッチ(黒)](https://akizukidenshi.com/catalog/g/g103647/)|
 |U1                   |   1|[ESP32-C3-WROOM-02-N4](https://akizukidenshi.com/catalog/g/g117493/)|Wi-Fi モジュール|
 |U2 (\*4)             |   1|[AP7333-33SAG](https://akizukidenshi.com/catalog/g/g111360/)|低損失三端子レギュレーター 3.3V 300mA|
 |U3 (\*4)             |   1|[NJM2845DL1-33](https://akizukidenshi.com/catalog/g/g111299/)|低損失三端子レギュレーター 3.3V 800mA|
