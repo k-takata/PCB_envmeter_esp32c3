@@ -64,7 +64,11 @@ T.B.D.
 
 ## 完成品
 
-[![完成品](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter.jpg)
+通常表示<br>
+[![完成品、通常表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter.jpg)
+
+詳細表示<br>
+[![完成品、詳細表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-detail-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-detail.jpg)
 
 ## License
 
