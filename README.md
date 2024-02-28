@@ -70,6 +70,9 @@ T.B.D.
 詳細表示<br>
 [![完成品、詳細表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-detail-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-detail.jpg)
 
+簡易表示<br>
+[![完成品、簡易表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-simple-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-simple.jpg)
+
 ## License
 
 CC0
