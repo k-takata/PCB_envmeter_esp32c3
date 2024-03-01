@@ -1,6 +1,7 @@
 /Gerber/
 /PCB_*-backups/
 /fp-info-cache
+/pcbway_production/
 /production/
 /#auto_saved_files#
 
