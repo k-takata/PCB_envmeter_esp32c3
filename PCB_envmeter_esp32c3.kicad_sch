@@ -2286,7 +2286,7 @@
   (symbol (lib_id "Device:R") (at 264.16 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bb7ff0d-5f46-48ab-a07a-d6dfd357e1fc)
-    (property "Reference" "R8" (at 266.7 24.13 0)
+    (property "Reference" "R9" (at 266.7 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1" (at 266.7 26.67 0)
@@ -2303,7 +2303,7 @@
     (instances
       (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2597,6 +2597,9 @@
     (property "Datasheet" "~" (at 110.49 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 110.49 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 369f150b-cf9c-446e-80fd-190420e00109))
     (pin "2" (uuid 55be7a31-453d-4474-9478-f3eb4d47b0c1))
     (instances
@@ -2661,10 +2664,10 @@
   (symbol (lib_id "Device:R") (at 252.73 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c07c7af-c3a3-4910-aff0-1bdeab20ce18)
-    (property "Reference" "R9" (at 255.27 53.975 0)
+    (property "Reference" "R8" (at 255.27 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7k" (at 255.27 56.515 0)
+    (property "Value" "4.7k" (at 255.27 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 250.952 54.61 90)
@@ -2678,7 +2681,7 @@
     (instances
       (project "PCB_envmeter_esp32c3"
         (path "/e56fcc30-bb74-4f59-a961-89b735db6e9b"
-          (reference "R9") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3087,6 +3090,9 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 63.5 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 63.5 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aa5d79f3-d534-4541-9bdd-187dd172af35))
