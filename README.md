@@ -3,12 +3,10 @@
 ## 概要
 
 ESP32-C3とBoschのBME680を使い、温度、湿度、気圧、二酸化炭素換算値などを測定し、結果を[Ambient](https://ambidata.io/)にアップロードできる環境メーターです。  
-表示には0.96inch OLEDを使用し、スイッチで通常表示・詳細表示・簡易表示を切り替えることができます。
-
+表示には0.96inch OLEDを使用し、スイッチで通常表示・詳細表示・簡易表示を切り替えることができます。  
 Rev. 2 からは赤外線送受信部を備え、スマートリモコン機能も使うことができます。
 
-Rev. 1 のソフトウェア及び解説記事は「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」で公開しています。
-
+Rev. 1 のソフトウェア及び解説記事は「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」で公開しています。  
 Rev. 2 のソフトウェア及び解説記事は今後公開予定です。
 
 
@@ -27,7 +25,7 @@ KiCad 7.0
 
 ## 部品表
 
-IoT環境メーター部分
+### IoT環境メーター部分
 
 | Reference           |個数|値    | 説明 |
 |---------------------|----|------|------|
@@ -63,14 +61,16 @@ IoT環境メーター部分
 * OLEDを取り外す予定がなければ、ピンソケット(J4)を使わず直接接続してもかまいません。
 
 
-赤外線受信部
+### 赤外線受信部
 
 | Reference           |個数|値    | 説明 |
 |---------------------|----|------|------|
 |U4                   |   1|[OSRB38C9AA](https://akizukidenshi.com/catalog/g/g104659/)|赤外線リモコン受信モジュール|
 
+注: 赤外線リモコン受信機能を使わない場合は組み立て不要です。
 
-赤外線送信部
+
+### 赤外線送信部
 
 | Reference           |個数|値    | 説明 |
 |---------------------|----|------|------|
@@ -80,22 +80,35 @@ IoT環境メーター部分
 |R8                   |   1|4.7kΩ|黄紫赤金|
 |R9                   |   1| 5.1Ω|緑茶金金|
 
+注: 赤外線リモコン送信機能を使わない場合は組み立て不要です。
+
+
 ## 使い方
 
-Rev. 1: 「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」を参照してください。
+### Rev. 1
 
-Rev. 2: T.B.D.
+「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」を参照してください。
+
+### Rev. 2
+
+T.B.D.
 
 ## 完成品
 
-Rev.1 通常表示<br>
+### Rev. 1
+
+通常表示<br>
 [![完成品、通常表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter.jpg)
 
-Rev.1 詳細表示<br>
+詳細表示<br>
 [![完成品、詳細表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-detail-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-detail.jpg)
 
-Rev.1 簡易表示<br>
+簡易表示<br>
 [![完成品、簡易表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-simple-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-simple.jpg)
+
+### Rev. 2
+
+T.B.D.
 
 ## License
 
