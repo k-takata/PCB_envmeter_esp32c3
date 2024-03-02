@@ -3,9 +3,9 @@
 ## 概要
 
 ESP32-C3とBoschのBME680を使い、温度、湿度、気圧、二酸化炭素換算値などを測定し、結果を[Ambient](https://ambidata.io/)にアップロードできる環境メーターです。  
-表示には0.96inch OLEDを使用し、スイッチで通常表示と詳細表示を切り替えることができます。
+表示には0.96inch OLEDを使用し、スイッチで通常表示・詳細表示・簡易表示を切り替えることができます。
 
-ソフトウェアは別途公開予定です。
+ソフトウェア及び解説記事は「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」で公開しています。
 
 
 ## 使用したソフトウェア
@@ -59,7 +59,7 @@ KiCad 7.0
 
 ## 使い方
 
-T.B.D.
+「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」を参照してください。
 
 
 ## 完成品
