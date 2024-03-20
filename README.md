@@ -91,7 +91,10 @@ KiCad 7.0
 
 ### Rev. 2
 
-T.B.D.
+以下の記事を参照してください。
+
+* [ESP32-C3とBME680でIoT環境メーター/スマートリモコンを作る (その1)](https://zenn.dev/k_takata/articles/esp32c3-envmeter-rev2-1)
+* [ESP32-C3とBME680でIoT環境メーター/スマートリモコンを作る (その2)](https://zenn.dev/k_takata/articles/esp32c3-envmeter-rev2-2)
 
 ## 完成品
 
@@ -108,7 +111,7 @@ T.B.D.
 
 ### Rev. 2
 
-T.B.D.
+[![Rev.2 完成品、通常表示](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-rev2-thumb.jpg)](https://raw.githubusercontent.com/k-takata/PCB_envmeter_esp32c3/master/images/envmeter-rev2.jpg)
 
 ## License
 
