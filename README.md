@@ -7,7 +7,10 @@ ESP32-C3とBoschのBME680を使い、温度、湿度、気圧、二酸化炭素�
 Rev. 2 からは赤外線送受信部を備え、スマートリモコン機能も使うことができます。
 
 Rev. 1 のソフトウェア及び解説記事は「[ESP32-C3とBME680でIoT環境メーターを作る](https://zenn.dev/k_takata/articles/esp32c3-envmeter)」で公開しています。  
-Rev. 2 のソフトウェア及び解説記事は今後公開予定です。
+Rev. 2 のソフトウェア及び解説記事は以下で公開しています。
+
+* [ESP32-C3とBME680でIoT環境メーター/スマートリモコンを作る (その1)](https://zenn.dev/k_takata/articles/esp32c3-envmeter-rev2-1)
+* [ESP32-C3とBME680でIoT環境メーター/スマートリモコンを作る (その2)](https://zenn.dev/k_takata/articles/esp32c3-envmeter-rev2-2)
 
 
 ## 使用したソフトウェア
