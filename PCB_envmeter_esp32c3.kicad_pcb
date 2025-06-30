@@ -2465,7 +2465,7 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "IoT環境メーター\n + スマートリモコン" (at 105.41 68.13 90) (layer "F.SilkS") (tstamp 892bd9cf-85d4-4cfc-808d-2fd7b479059b)
-    (effects (font (face "UD デジタル 教科書体 NK-B") (size 1.8 1.8) (thickness 0.36) bold) (justify left bottom))
+    (effects (font (face "UD デジタル 教科書体 NK") (size 1.8 1.8) (thickness 0.36) bold) (justify left bottom))
     (render_cache "IoT環境メーター\n + スマートリモコン" 90
       (polygon
         (pts
